@@ -20,7 +20,7 @@ en donde se encuentra no es valido.
 Por esta misma razon es posible que tal vez deba de alguna manera cambiar en el main la cantidad de elementos validos que posee el array ya sea si se le inserto o elimino algun valor
 en la funcion.
 
-__NOTA:__ Si no quiere ver la solucion completa de una, puede ver minimamente el archivo "vector.h" con las declaraciones de las funciones y las variables que reciben.
+__NOTA:__ Si no quiere ver la solucion completa de una, puede ver minimamente el archivo "vector.h" con las declaraciones de las funciones y las variables que reciben. En el "main.c" se encuentran las pruebas que hice al codigo.
 
 __ES ALTAMENTE RECOMENDABLE ENTENDER EL PROBLEMA, EN LAPIZ Y PAPEL PRIMERAMENTE JUNTO CON LOS CASOS LIMITES Y LUEGO PASAR A CODIGO.__
 ## 1 - Insertar Elemento en array int dada una posicion
