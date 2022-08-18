@@ -14,13 +14,13 @@ funciones que me indica la cantidad de elementos(CE) validos que tiene el array 
 Una posible solucion capaz que piense para no utilizar la variable CE es colocarle a los elementos int del array un 0(cero), -1 o cualquier otro valor negativo para saber que esa posicion del array ya no hay 
 elementos validos. ERROR.
 El valor 0(Cero) no puede indicarme si esa posicion es valida porque el cero puede ser un elemento valido tambien si estoy por ejemplo
-trabajando con un array de cuentas de bancos, tener saldo 0 es posible e incluso en negativo tambien. Es por eso que el 0(cero) no puedo utilizarlo para indicar que esa posicion
+trabajando con un array de cuentas de bancos, tener saldo 0 es posible e incluso en negativo tambien. Es por eso que el 0(cero) no puedo ser utilizado para indicar que esa posicion
 en donde se encuentra no es valido.
 
 Por esta misma razon es posible que tal vez deba de alguna manera cambiar en el main la cantidad de elementos validos que posee el array ya sea si se le inserto o elimino algun valor
 en la funcion.
 
-__NOTA:__ Si no quiere ver la solucion completa de una, puede ver minimamente el archivo "vector.h" con las declaraciones de las funciones y las variables que reciben. En el "main.c" se encuentran las pruebas que hice al codigo.
+__NOTA:__ Si no quiere ver la solucion completa, puede ver minimamente el archivo "vector.h" con las declaraciones de las funciones y las variables que reciben. En el "main.c" se encuentran las pruebas que hice al codigo.
 
 __ES ALTAMENTE RECOMENDABLE ENTENDER EL PROBLEMA, EN LAPIZ Y PAPEL PRIMERAMENTE JUNTO CON LOS CASOS LIMITES Y LUEGO PASAR A CODIGO.__
 ## 1 - Insertar Elemento en array int dada una posicion
