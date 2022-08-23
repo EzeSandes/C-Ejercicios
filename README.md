@@ -16,15 +16,42 @@ Esa es la razon por la que no se usa indireccion en los ejercicios a la hora de 
 - Punteros
 - Arrays
 - Matrices
+  - Operaciones con Matrices
+  - Recorridos formando figuras con matrices
 - Cadenas(Strings)
+  - Emular libreria <string.h> y <ctype.h>
+  - Operaciones con cadenas.
 - Archivos
-- TDA (genericos) 
+  - Binarios
+  - Texto
+  - Ejercicios con Archivos(Merge)
+- Funciones genericas
+  - Punteros a funciones
+- TDA (genericos)
+
+Cada implementacion tiene sus primitivas y mas funciones de operacion, cuando es permitido. Por ejemplo, a las Pilas y Colas no puedo
+agregarle mas funciones que las primitivas que son las unicas permitidas para poder operar con ellas.
+
   - Pila (estatica y dinamica)
   - Cola (estatica y dinamica)
-  - Lista (estatica y dinamica)
-  - Lista Doble
+  - Lista Simple(estatica y dinamica)
+  - Lista Doblemente enlazada
   - Pila Circular
-  - Lista Circular
+  - Lista Circular Simple
   - Lista Doblemente Enlazada
-  - Arbol Binario
+  - Arbol Binario(primero ver 'Recursividad' antes de este tema). Algunas funciones las codifique tanto en su forma recursiva y no recursiva.
+      - Crear Arbol
+      - Insertar En Arbol
+      - Insertar Balanceado en Arbol
+      - Vaciar Arbol
+      - Eliminar Nodo de Arbol
+      - Mostrar Arbol grafico en consola
+      - Buscar en Arbol
+      - Altura Arbol
+      - Cantidad Nodos Arbol
+      - Recorrer Arbol en PosOrden, PreOrden y en Orden.
+      - Podar Hojas
+      - Es Arbol Completo, Balanceado, AVL.
+      - Balancear Arbol
+      - Cargar Arbol Indice desde Archivo
 - Recursividad
