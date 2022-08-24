@@ -40,3 +40,13 @@ Desarrollar una función que elimine la primera aparición de un elemento determ
 
 ## 5 - Eliminar todos los Elemento en array int daddo un elemento
 Desarrollar una función que elimine todas las apariciones de un determinado elemento de un arreglo de enteros.
+
+## 6 - Son vectores disjuntos?
+Hacer una funcion que reciba dos vectores numericos enteros (pueden ser de diferente tamanio).
+La funcion devuelve verdadero o 1 si son disjuntos.
+
+Aclaracion: Los conjuntos disjuntos, o conjuntos incompatibles, son aquellos que no
+tienen ningun elemento en comun. Es decir, los conjuntos M y N son disjuntos si se
+cumple que su interseccion es un conjunto vacio.
+
+
