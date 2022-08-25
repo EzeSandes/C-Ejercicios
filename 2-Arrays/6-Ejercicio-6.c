@@ -33,3 +33,25 @@ int sonVectoresDisjuntos(int *vec1, int *vec2, int cantElementosVec1, int cantEl
 
     return TRUE;
 }
+
+int sonDisjuntos(int * v1, int * v2, int cantElem1,int cantElem2)
+{
+    int i,
+        j,
+        *pInicial = v2;
+    
+    if(!cantElem1 || !cantElem2)
+        return TRUE;
+    
+    for(i=0 ; i < cantElem1; i++,v1++)      // Recorrido del primer vector
+    {
+        v2 = pInicial;						// En cada iteracion vuelvo al primer valor del vector 2
+
+        for(j=0 ; j < cantElem2; j++,v2++)  // Recorrido del segundo vector
+            if(*v1 == *v2)					// Si encuentra un elemento en comun entonces corta el ciclo, ya que no necesita seguir recorriendo
+                return 0;
+
+    }
+
+    return 1;
+}
