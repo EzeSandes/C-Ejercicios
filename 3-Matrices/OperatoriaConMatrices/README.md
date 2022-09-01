@@ -18,4 +18,4 @@ Desarrollar una función para que, dada una matriz cuadrada de reales de orden N
 
 ## 2 - Traza de una matriz
 
-Desarrollar una función para que, dada una matriz cuadrada de enteros de orden N, obtenga la traza de la misma (sumatoria de los elementos de la diagonal principal).
+Desarrollar una función para que, dada una matriz cuadrada de enteros de orden N, obtenga la traza de la misma (sumatoria de los elementos de la diagonal principal). Lo mismo con la DS
