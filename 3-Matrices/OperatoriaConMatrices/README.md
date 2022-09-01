@@ -15,3 +15,7 @@ DS: Diagonal secundaria
 
 Desarrollar una función para que, dada una matriz cuadrada de reales de orden N, obtenga la sumatoria de los elementos que están por encima de la diagonal principal 
 (excluida ésta). Lo mismo incluyendo la diagonal.
+
+## 2 - Traza de una matriz
+
+Desarrollar una función para que, dada una matriz cuadrada de enteros de orden N, obtenga la traza de la misma (sumatoria de los elementos de la diagonal principal).
