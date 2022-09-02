@@ -19,3 +19,11 @@ Desarrollar una función para que, dada una matriz cuadrada de reales de orden N
 ## 2 - Traza de una matriz
 
 Desarrollar una función para que, dada una matriz cuadrada de enteros de orden N, obtenga la traza de la misma (sumatoria de los elementos de la diagonal principal). Lo mismo con la DS
+
+## 3 - Matriz Diagonal
+
+Desarrollar una función que determine si una matriz cuadrada de enteros de orden N es matriz diagonal (ceros en todos sus elementos excepto en la diagonal principal).
+
+## 4 - Matriz Identidad
+
+Desarrollar una función que determine si una matriz cuadrada de enteros de orden N es matriz identidad (matriz diagonal, con unos en la diagonal principal y ceros en los restantes).
