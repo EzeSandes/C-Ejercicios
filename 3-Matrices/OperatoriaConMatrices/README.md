@@ -27,3 +27,14 @@ Desarrollar una función que determine si una matriz cuadrada de enteros de orde
 ## 4 - Matriz Identidad
 
 Desarrollar una función que determine si una matriz cuadrada de enteros de orden N es matriz identidad (matriz diagonal, con unos en la diagonal principal y ceros en los restantes).
+
+## 5 - Matriz Simetrica
+
+Desarrollar una funcion que determine si una matriz cuadrada de enteros de orden N es una matriz simetrica.
+
+## 6 - Multiplicacion de Matrices
+
+
+Desarrollar una funcion calcula la multiplicacion de dos matrices de enteros. 
+
+Nota: La funcion debe devolver si puso hacer o no el calculo. La matriz resultado se debe devolverse por parametro de la funcion, como un argumento. Piense bien en como resolverlo y todos los parametros necesarios que hay que pasarle a la funcion para que pueda ejecutar el programa.
