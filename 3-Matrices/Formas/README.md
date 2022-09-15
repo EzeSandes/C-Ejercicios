@@ -22,6 +22,8 @@ Nota:
   - Recuerde que no es necesario utilizar aritmetica de punteros. Puede utilizar indireccion para trabajar matrices.
   - Los elementos de la matriz en este caso las coloque con "0" pero pueden ser "*" o lo que usted prefiera.
   - Se recomienda pensar la resolucion en lapiz y papel primeramente: Realice dibujos de la matriz con los subindices de cada posicion y busque el patron comun que tienen para mostrar unicamente los elementos que se piden
+  - DP: Diagonal Principal
+  - DS: Diagonal Secundaria
 
 A continuacion se detallan las consignas.
 
@@ -34,3 +36,41 @@ que tiene la matriz
 de separador entre elementos a la hora de mostrar.
 
 - Realice la funcion "``void mostrarMatriz(int mat[][COL], int filas, int columnas)``" que muestre una matriz impelementando la funcion de "mostrarVector"
+
+## 2 - Mostrar Diagonal Secundaria
+
+Realice la funcion que dada una matriz cuadrada N, muestre por pantalla los elementos de la diagonal secundaria.
+
+Nota: Hay dos opciones, que las muestre en una fila los elementos(opcion 1), o que muestren los elementos de la DS manteniendo sus respectivas posiciones(opcion2)
+
+Ej: Dada una matriz 5x5
+
+```
+00  01  02  03  04
+
+10  11  12  13  14
+
+20  21  22  23  24
+
+30  31  32  33  34
+
+40  41  42  43  44
+```
+Solucion
+```
+Opcion 1 => [fila][col] = 04 13 22 31 40
+
+Opcion 2 = >
+
+                04
+
+            13
+
+        22
+
+    31 
+
+40 
+            
+```
+A su vez, el ejercicio tiene variantes pero primeramente puede pensarlo como lo haria con la opcion 1, luego con la opcion 2 y por ultimo como adaptarlo a matrices rectangulares(5x6, 6x7, 3x7, ...)
