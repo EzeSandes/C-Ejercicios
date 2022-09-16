@@ -74,3 +74,41 @@ Opcion 2 = >
             
 ```
 A su vez, el ejercicio tiene variantes pero primeramente puede pensarlo como lo haria con la opcion 1, luego con la opcion 2 y por ultimo como adaptarlo a matrices rectangulares(5x6, 6x7, 3x7, ...)
+
+## 3 - Mostrar Triangulo Superior DP
+
+Realice una funcion que dada una matriz de orden N, muestre por pantalla los elementos por encima de la DP.
+
+Nota: Hay dos opciones, que las muestre en una fila los elementos(opcion 1), o que muestren los elementos manteniendo sus respectivas posiciones(opcion2)
+
+
+Ej: Dada una matriz 5x5
+
+```
+00  01  02  03  04
+
+10  11  12  13  14
+
+20  21  22  23  24
+
+30  31  32  33  34
+
+40  41  42  43  44
+```
+Solucion
+```
+Opcion 1 => [fila][col] = 00  01  02  03  04 10  11  12  13  20  21  22  30  31  40
+
+Opcion 2 = >
+
+                00  01  02  03  04
+
+                10  11  12  13
+
+                20  21  22
+
+                30  31 
+
+                40
+            
+```
