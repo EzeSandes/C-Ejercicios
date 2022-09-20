@@ -112,3 +112,35 @@ Opcion 2 = >
                 40
             
 ```
+## 4 - Mostrar Triangulo Inferior DP
+
+Realice una funcion que dada una matriz de orden N, muestre por pantalla los elementos por debajo de la DP manteniendo sus respectivas posiciones.
+
+Nota: Tambien puede hacer una variante del ejercicio, sin incluir la diagonal y que admita matrices rectangulares.
+
+Ej: Dada una matriz 5x5
+
+```
+*  *  *  *  *
+
+*  *  *  *  *
+
+*  *  *  *  *
+
+*  *  *  *  *
+
+*  *  *  *  *
+```
+Solucion
+```
+*  
+
+*  *  
+
+*  *  *  
+
+*  *  *  *  
+
+*  *  *  *  *
+            
+```
