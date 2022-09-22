@@ -116,7 +116,7 @@ Opcion 2 = >
 
 Realice una funcion que dada una matriz de orden N, muestre por pantalla los elementos por debajo de la DP manteniendo sus respectivas posiciones.
 
-Nota: Tambien puede hacer una variante del ejercicio, sin incluir la diagonal y que admita matrices rectangulares.
+Nota: Tambien puede hacer una variante del ejercicio, sin incluir la diagonal y que admita matrices rectangulares(NxM).
 
 Ej: Dada una matriz 5x5
 
@@ -148,7 +148,7 @@ Solucion
 
 Realice una funcion que dada una matriz de orden N, muestre por pantalla los elementos por debajo de la DS manteniendo sus respectivas posiciones.
 
-Nota: Tambien puede hacer una variante del ejercicio, sin incluir la diagonal y que admita matrices rectangulares.
+Nota: Tambien puede hacer una variante del ejercicio, sin incluir la diagonal y que admita matrices rectangulares(NxM).
 
 Ej: Dada una matriz 5x5
 
@@ -176,3 +176,31 @@ Solucion
 *  *  *  *  *
             
 ```
+
+## 6 - Trangulo T1
+
+Realice una funcion que dada una matriz de orden NxM muestre por pantalla la figura llamada para facilidad del ejercicio, T1.
+
+Ej: Dada una matriz 5x5(N = 5, M = 5)
+
+```
+*  *  *  *  *
+
+*  *  *  *  *
+
+*  *  *  *  *
+
+*  *  *  *  *
+
+*  *  *  *  *
+```
+Solucion: T1
+```
+*  *  *  *  *
+
+   *  *  * 
+
+      *   
+```
+
+Nota: Puede empezar resolviendolo para matrices cuadradas y luego adaptarlo para matrices rectangulares.
