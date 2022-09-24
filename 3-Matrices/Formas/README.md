@@ -204,3 +204,31 @@ Solucion: T1
 ```
 
 Nota: Puede empezar resolviendolo para matrices cuadradas y luego adaptarlo para matrices rectangulares.
+
+## 7 - Trangulo T2
+
+Realice una funcion que dada una matriz de orden NxM muestre por pantalla la figura llamada para facilidad del ejercicio, T2.
+
+Ej: Dada una matriz 5x5(N = 5, M = 5)
+
+```
+*  *  *  *  *
+
+*  *  *  *  *
+
+*  *  *  *  *
+
+*  *  *  *  *
+
+*  *  *  *  *
+```
+Solucion: T2
+```
+      * 
+
+   *  *  * 
+
+*  *  *  *  * 
+```
+
+Nota: Puede empezar resolviendolo para matrices cuadradas y luego adaptarlo para matrices rectangulares.
