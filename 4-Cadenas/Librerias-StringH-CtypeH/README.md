@@ -14,3 +14,4 @@ casos comunes, si no en los casos limites tambien. Ej: ¿Qué sucede si le paso 
 - strrchr()
 - strstr()
 
+Nota: Recuerde utilizar artimetica de punteros, no indireccion(cad[i], *(cad + i) => MAL)
