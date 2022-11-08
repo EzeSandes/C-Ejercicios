@@ -14,4 +14,9 @@ casos comunes, si no en los casos limites tambien. Ej: ¿Qué sucede si le paso 
 9. strrchr()
 10. strstr()
 
+Funciones personalizadas agregadas
+
+11. str_lwr(String cad): Pasa toda una cadena a minuscula.
+12. str_upp(String cad): Pasa toda una cadena a mayuscula.
+
 Nota: Utilizar artimetica de punteros, no indireccion(cad[i], *(cad + i) => MAL)
