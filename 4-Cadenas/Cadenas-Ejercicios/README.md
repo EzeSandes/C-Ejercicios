@@ -26,3 +26,9 @@ En el ejemplo, "3cde" significa que tomare tres digitos a la derecha y los invie
 
 Emular la funcion "atoi()" de la libreria "<stdlib.h>". Averiguar como funciona y probar con varios ejemplos. Si lo desea, puede 
 crear un lote de pruebas para hacerlo con diferentes casos de pruebas.
+
+### 5 - Atof
+
+Emular la funcion "atof()" de la libreria "<stdlib.h>". Averiguar como funciona y probar con varios ejemplos. Si lo desea, puede 
+crear un lote de pruebas para hacerlo con diferentes casos de pruebas.
+
