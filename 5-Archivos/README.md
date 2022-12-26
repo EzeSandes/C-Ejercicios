@@ -9,16 +9,16 @@
 
 ## Binario
 - Copia directamente una porcion de memoria. No analiza nada
-- Ventaja: Al copiar directaemnte porciones de memoria(bytes) es muy rapido ya que no hay ningun tipo de procesamiento en el medio.
-- Desv: Es dependiente de la arquitectura con la cual trabajo. Si trabajo en 64bits y otro en 16 habra problemas de lectura.
+- Ventaja: Al copiar directamente porciones de memoria(bytes) es muy rapido ya que no hay ningun tipo de procesamiento en el medio.
+- Desv: Es dependiente de la arquitectura con la cual trabajo. Si trabajo en 64bits y otro en 16bits habra problemas de lectura.
 
 ## Texto
 - Si necesito compartir archivos entre aplicaciones conviene en .txt. Esto es devido a que no importa la arquitectura que se este usando, todos pueden leer ASCII.
 - Transforma cada elemento a su codigo ASCII, lo cual es ventajoso si se quiere ver a simple vista la informacion procesada/guardada.
-- DESV: Asi como se puede leer a simple vista el archivo, si guardo passwords o cualquier otra informacion sensible no es combeniente.
+- DESV: Asi como se puede leer a simple vista el archivo, si guardo passwords o cualquier otra informacion sensible no es conveniente.
 
 ## Forma de acceso
-- Secuencias: Me paro en un punto del archivo y desde ahi voy leyendo uno por uno.
+- Secuencial: Me paro en un punto del archivo y desde ahi voy leyendo uno por uno.
 - Aleatoria o Directa: Directamente me paro en donde esta la informacion que quiero leer sin necesidad de leer todos los regs que estan antes o despues de eso.
 
 ## Forma de flujo de la informacion
