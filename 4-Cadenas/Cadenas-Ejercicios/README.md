@@ -32,3 +32,6 @@ crear un lote de pruebas para hacerlo con diferentes casos de pruebas.
 Emular la funcion "atof()" de la libreria "<stdlib.h>". Averiguar como funciona y probar con varios ejemplos. Si lo desea, puede 
 crear un lote de pruebas para hacerlo con diferentes casos de pruebas.
 
+### 6 - Anagrama
+
+Teniendo dos cadenas, programar una funcion "sonAnagramas(str1, str2)" que devuelva "true" o "false" si dos cadenas son anagramas o no respectivamente. Elija si es sensible a mayusculas o minusculas la funcion.
