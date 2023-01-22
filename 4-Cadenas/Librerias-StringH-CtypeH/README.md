@@ -1,6 +1,6 @@
 # Enunciados
 
-Emular con una funcion propia el comportamiento de la funcion "strlen()" de la libreria "<string.h>". Buscar informacion en la documentacion sobre como se comporta no solo en los 
+Emular con una funcion propia el comportamiento de las funciones de la libreria "<string.h>". Buscar informacion en la documentacion sobre como se comporta no solo en los 
 casos comunes, si no en los casos limites tambien. Ej: ¿Qué sucede si le paso una cadena vacia?
 
 1. strlen()
