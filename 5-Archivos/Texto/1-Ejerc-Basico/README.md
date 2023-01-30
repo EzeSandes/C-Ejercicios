@@ -2,7 +2,7 @@
 
 Crear un menu con las siguientes operaciones sobre archivos de texto. Cada opcion debe ejecutar la accion esperada sobre un archivo de texto.
 
-- Crear Lote de pruebas( %s ) => Se le pasa el nombre del archivo a crear.
+- Crear Lote de pruebas.
 - Abrir Archivo de lote de pruebas
 - Binario a Txt Fijo
 - Binario a Txt Variable
