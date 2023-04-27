@@ -1,5 +1,7 @@
 # Mas funciones utiles
 
+[Ejercicio mas abajo](#Ejercicio)
+
 Hay dos funciones muy utiles para el manejo de memoria dinamica aparte de las ya mencionadas. Una es __memcpy()__ y la otra __memmove()__. 
 
 Ambas funciones permite copiar o mover bytes de memoria directamente desde una variable hacia otra, segun cuanto queramos. Esto da mucha flexibilidad
@@ -34,3 +36,8 @@ por la razon indicada.
 void* memcpy(void *destino, const void *origen, size_t cant);
 ```
 
+## Ejercicio
+
+Una vez probadas estas funciones de libreria, implementar y desarrollar su propia version de estas funciones(memmove y memcpy).
+
+Ayuda: Los tipos de datos "char" valen 1Byte y es el minimo tamano que puede llegar a tener una variable. Nunca habra nada menor a 1by.
