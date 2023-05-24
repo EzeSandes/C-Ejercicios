@@ -51,8 +51,8 @@ el puntero que estoy tratando de redimencionar.
 
 Ej: 
 ```C
-// MALA PRACTICA: Tengo error => Devuelve NULL => Pierdo el bloque de memoria a la cual estaba referenciando anteriormente => El bloque quedara bloqueado 
-//                ocupando espacio en memoria innecesariamente.
+// MALA PRACTICA: Tengo error => Devuelve NULL => Pierdo el bloque de memoria a la cual estaba referenciando anteriormente => El bloque de memoria 
+//                   quedara ocupando espacio en memoria innecesariamente sin posibilidad de liberarla en tiempo de ejecucion.
 pFloat = (float *)realloc(pFloat, 18 * sizeof(float));
 
 // BUENA PRACTICA: Aunque tenga error, sigo teniendo el bloque de memoria reservado referenciado por la variable original.
